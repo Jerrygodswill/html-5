@@ -37,3 +37,172 @@ header{
     padding: 5px 10px; /* Padding around the text */
     transition: transform 0.3s ease, text-shadow 0.3s ease, color 0.3s ease;
 }
+
+/* Optional: Add a subtle text shadow by default */
+.gradient-text a {
+    text-shadow: 0 0 5px rgba(123, 121, 121, 0.3); /* Soft shadow to enhance readability */
+}
+
+nav ul {
+    display: flex;
+    justify-content: center; /* Center the items horizontally */
+    gap: 20px; /* Space between nav items */
+}
+
+.nav-item {
+    display: inline-block;
+}
+  
+.bar {
+    width: 30px;
+    height: 5px;
+    margin: 2px;
+    background-color: rgb(24, 24, 24);
+}
+
+.menu-icon {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.hero {
+    background: 
+    url(Untitled-1\ copy.png) no-repeat right center,
+    linear-gradient(to bottom, #ffffff, #f7efe8); /* gradient below the blob */
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 10%;
+    position: relative;
+}
+
+.hero-content {
+    max-width: 500px;
+}
+
+.hero-content h4 {
+    color: #b45f06;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    margin-bottom: 30px;
+}
+
+.order-btn {
+    background: #c49d6e;
+    padding: 12px 30px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.order-btn:hover {
+    background: #a36e3b;
+}
+
+.hero-image img {
+    max-width: 650px;
+}
+
+.coffee-menu{
+    background: url(Untitled-1\ copy\ 2.png)  no-repeat right center, 
+    linear-gradient(to bottom, #ffffff, #f7efe8);
+}
+.section-title {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #5c3d27;
+    text-align: center;
+}
+
+/* Items Container */
+.coffee-items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+/* Single Item Card */
+.menu-item {
+    background: linear-gradient(to bottom, #ffffff, #f7efe8);
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 250px;
+    padding: 20px;
+}
+
+.menu-item img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.menu-item h3 {
+    font-size: 1.5rem;
+    margin: 15px 0 10px;
+    color: #333;
+}
+
+.menu-item p {
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 15px;
+}
+
+.price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #5c3d27;
+    margin-bottom: 15px;
+}
+
+/* Button Styling */
+.order-btn {
+    background: linear-gradient(to right, #d4a373, #b06c49);
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.order-btn:hover {
+    background: linear-gradient(to right, #b06c49, #8c4a2f);
+}
+
+/* Card Hover Effect */
+.menu-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+}
+footer a {
+    color: #c8a97e;
+    margin: 0 10px;
+    text-decoration: none;
+}
