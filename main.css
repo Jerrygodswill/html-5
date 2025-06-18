@@ -47,7 +47,6 @@ nav ul {
     display: flex;
     justify-content: center; /* Center the items horizontally */
     gap: 20px; /* Space between nav items */
-    background: red !important;
 }
 
 .nav-item {
@@ -62,7 +61,7 @@ nav ul {
 }
 
 .menu-icon {
-    display: flex;
+    display: none;
     flex-direction: column;
     gap: 5px;
     cursor: pointer;
@@ -226,8 +225,8 @@ footer a {
     }
 
   
-nav.show {
-    display: flex;
+nav ul.show {
+    display: flex !impotant;
 }
 
     .hero {
