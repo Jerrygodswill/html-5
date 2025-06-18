@@ -206,3 +206,54 @@ footer a {
     margin: 0 10px;
     text-decoration: none;
 }
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        width: 100%;
+        display: none; /* Initially hidden on small screens */
+    }
+
+    .menu-icon {
+        display: flex;
+    }
+
+    nav ul.show {
+        display: flex;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px 5%;
+    }
+
+    .hero-content {
+        max-width: 100%;
+    }
+
+    .hero-image img {
+        max-width: 100%;
+    }
+
+    .coffee-items {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu-item {
+        width: 90%;
+    }
+
+    footer form {
+        width: 100%;
+        text-align: left;
+        margin-top: 20px;
+    }
