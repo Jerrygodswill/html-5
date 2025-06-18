@@ -47,6 +47,7 @@ nav ul {
     display: flex;
     justify-content: center; /* Center the items horizontally */
     gap: 20px; /* Space between nav items */
+    background: red !important;
 }
 
 .nav-item {
